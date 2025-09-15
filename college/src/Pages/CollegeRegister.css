@@ -1,0 +1,37 @@
+.form-body {   
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-image: linear-gradient(to bottom right, rgb(147, 178, 251), rgb(85, 85, 85));
+        padding-bottom: 120px;
+        
+  }
+  .custom-select {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .custom-select:focus {
+    border: 3px solid rgb(0, 101, 252);
+  }
+  .icon{
+   background-color: rgba(255, 255, 255, 0.159);
+    padding: 8px;
+    border-radius: 15px;
+  }
+  .password-strength.strong {
+    color: green;
+  }
+  .password-strength.medium {
+    color: orange;
+  }
+  .password-strength.weak {
+    color: red;
+  }
+  .password-strength.too-short {
+    color: gray;
+  }
+  .password-feedback {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    font-size: small;
+    list-style-type: none;
+  }  

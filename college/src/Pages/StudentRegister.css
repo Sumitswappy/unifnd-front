@@ -1,0 +1,93 @@
+body {
+    background-color: hsl(0, 0%, 96%);
+  } 
+  
+  #form1:focus {
+    border-color: #00589E; 
+  }
+  .password-strength.strong {
+    color: green;
+  }
+  .password-strength.medium {
+    color: orange;
+  }
+  .password-strength.weak {
+    color: red;
+  }
+  .password-strength.too-short {
+    color: gray;
+  }
+  .password-feedback {
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    font-size: small;
+    list-style-type: none;
+  }  
+
+
+@media (max-width: 767px) {
+  .text-center.text-md-start {
+    text-align: center !important;
+  }
+
+  .d-flex.flex-column.justify-content-center {
+    align-items: center;
+  }
+
+  .my-5 {
+    margin-top: 2rem !important;
+  }
+
+  .mb-4 {
+    margin-bottom: 1rem !important;
+  }
+
+  .w-100 {
+    width: 100% !important;
+  }
+
+  .mx-3 {
+    margin-right: 0.75rem !important;
+    margin-left: 0.75rem !important;
+  }
+
+  .p-5 {
+    padding: 3rem !important;
+  }
+
+ 
+.display-3 {
+  text-align: center !important;
+}
+
+
+.px-3 {
+  padding: 0 1rem !important;
+}
+
+
+.my-5 {
+  margin-top: 2rem !important;
+}
+
+
+.p-5 {
+  padding: 2rem !important;
+}
+
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+
+.text-center > p {
+  text-align: center;
+}
+.px{
+  display: none;
+}
+
+
+
+}

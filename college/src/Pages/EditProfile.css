@@ -1,0 +1,76 @@
+
+.view-user {
+    padding-top: 20px;
+  }
+  
+  .view-heading {
+    font-size: 4vh;
+    color: #333; /* Set your desired text color */
+  }
+  .user1 {
+    margin-top: 70px;
+      padding-top: 20px;
+      justify-content: center;
+      height: 700px;
+      background-image: linear-gradient(45deg, rgb(0, 67, 251), rgb(30, 154, 255), rgb(0, 251, 255), rgb(30, 154, 255));
+      background-size: 250% 250%;
+      background-repeat: no-repeat;
+      animation: color 10s ease-in-out infinite;
+    }
+      @keyframes color{
+        0%{
+          background-position: 0 50%;
+        }
+        50%{
+          background-position: 100% 50%;
+        }
+        100%{
+          background-position: 0 50%;
+        }
+      }
+    .add-heading {
+      font-size: 2rem;
+      color: #333; /* Set your desired text color */
+      margin-bottom: 20px;
+    }
+    
+    .add-breadcrumb {
+      background-color: #ffffff8d; /* Set your desired background color */
+      padding: 10px;
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+    }
+    
+    .add-breadcrumb a {
+      color: #007bff; /* Set your desired link color */
+      text-decoration: none;
+    }
+    .fa-container{
+        background-color: rgba(255, 255, 255, 0.789);
+        color: black;
+    }
+    
+    .add-breadcrumb a:hover {
+      text-decoration: underline;
+    }
+    .heading{
+      display:flex;
+      padding: 20px;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #bebebe80;
+    }
+    .add-user-button{
+      color: rgb(0, 106, 255);
+      padding-left: 15px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-right: 15px;
+      border: 2px solid rgb(0, 106, 255);
+      border-radius: 5px;
+    }
+    .add-user-button:hover{
+      background-color: rgb(0, 106, 255);
+      color:white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.43);
+    }

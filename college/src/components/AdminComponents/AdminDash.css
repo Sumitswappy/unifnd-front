@@ -1,0 +1,70 @@
+
+
+.view-user {
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, rgb(65, 65, 65),rgb(237, 237, 237),rgb(237, 237, 237),rgb(237, 237, 237),rgb(237, 237, 237),rgb(237, 237, 237));
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    border: #333;
+  }
+  
+  .view-heading {
+    font-size: 2rem;
+    color: #333; /* Set your desired text color */
+    margin-bottom: 5px;
+  }
+  .main-heading{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4d4d4d; /* Set your desired text color */
+    margin-bottom: 30px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.437);
+  }
+  
+  .view-breadcrumb {
+    background-color: #ffffff8d; /* Set your desired background color */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .view-breadcrumb a {
+    color: #007bff; /* Set your desired link color */
+    text-decoration: none;
+  }
+  
+  .view-breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  .user-count-box{
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(255, 60, 0, 0.79),rgba(251, 214, 4, 0.834));
+    padding: 5px;
+    text-align: center;
+    border-radius: 90px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+.user-count-box:hover  {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.college-count-box{
+  justify-content: center;
+  background-image: linear-gradient(to bottom, rgba(0, 115, 255, 0.495),rgba(147, 248, 248, 0.834));
+  padding: 5px;
+  text-align: center;
+  border-radius: 90px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.college-count-box:hover  {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transform: scale(1.05);
+transition: transform 0.3s ease;
+}
+

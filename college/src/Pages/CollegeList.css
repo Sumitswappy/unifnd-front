@@ -1,0 +1,68 @@
+/* General styles */
+.info-label {
+  color: #0122c6; /* Change color as needed */
+  font-weight: bold;
+}
+
+.cardTextStyle {
+  font-size: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  line-height: 1.6;
+  color: #202020;
+  font-weight: bold;
+  margin-top: 10px; /* Adjust margin as needed */
+}
+.college-card {
+  width: 100%; /* Make cards take full width on small screens */
+}
+.college-body {
+  display: flex;
+  flex-direction: row; /* Default to row layout */
+  height: 100%;
+  background-size: 200% 200%;
+}
+
+.gold-star {
+  color: rgb(255, 197, 50);
+}
+.sidebar-filters{
+  display: block;
+}
+.upbarfilters{
+  display: none;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .upbarfilters{
+    z-index: 1;
+    display: block;
+    margin-top: 75px;
+  }
+  .sidebar-filters{
+    display: none;
+  }
+  .cardTextStyle {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      margin-top: 8px; /* Adjust margin for smaller screens */
+  }
+.college-container{
+  margin-top: 0px;
+}
+  .college-body {
+      flex-direction: column; /* Stack items vertically on mobile */
+      padding: 10px; /* Add some padding */
+  }
+
+  .info-label {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+
+  .college-card {
+
+      width: 100%; /* Make cards take full width on small screens */
+  }
+}

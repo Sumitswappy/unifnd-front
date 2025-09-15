@@ -1,0 +1,97 @@
+/* Default styles for larger screens */
+
+
+#drops {
+  color: aliceblue;
+}
+
+#drops-dark {
+  color: rgb(27, 27, 27);
+}
+
+.brand-link {
+  color: rgb(231, 231, 231);
+}
+
+.login-register-dropdown {
+  margin-right: 15px;
+}
+.logout-dropdown{
+  margin-right: 15px;
+}
+
+.dropdowm {
+  margin-right: 15px;
+}
+
+.nav-button-1:hover {
+  background-color: rgb(220, 162, 1);
+  color: rgb(255, 255, 255);
+}
+
+.nav-button-2:hover {
+  background-color: rgb(207, 57, 77);
+  color: rgb(255, 255, 255);
+}
+.nav-button-3:hover {
+  background-color: rgb(39, 65, 158);
+  color: rgb(255, 255, 255);
+}
+.nav-search:hover {
+  background-color: rgb(41, 150, 49);
+  color: rgb(255, 255, 255);
+}
+
+/* Mobile styles - adjust as needed */
+@media (max-device-width: 480px) {
+  /* Adjust navbar width and add padding */
+  .navbar {
+      width: 100%;
+      padding: 10px;
+  }
+
+  /* Center the brand link */
+  .brand-link {
+      font-size: 24px;
+      text-align: center;
+  }
+
+  /* Adjust margin for smaller screens */
+  .login-register-dropdown,
+  .dropdowm {
+      margin-right: 10px;
+  }
+
+  /* Make navigation buttons full width and change background color */
+  .nav-button-1,
+  .nav-button-2{
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  /* Change navbar item layout for smaller screens */
+  .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  /* Center align individual items */
+  .nav-item {
+      text-align: center;
+  }
+  .nav-button-1:hover {
+    background-color: rgb(220, 162, 1);
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-button-2:hover {
+    background-color: rgb(207, 57, 77);
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav-search:hover {
+    background-color: rgb(41, 150, 49);
+    color: rgb(255, 255, 255);
+  }
+  
+}

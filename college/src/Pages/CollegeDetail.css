@@ -1,0 +1,97 @@
+/* CollegeDetail.css */
+.back{
+ background-color: #ffffff6a;
+ padding: 10px;
+ text-align: left;
+ 
+}
+.college-info {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(135deg, rgba(0, 123, 255, 0.452), rgba(86, 86, 86, 0.447));
+    color: #000000;
+  }
+  .profile{
+    border: 5px #006bd5 solid;
+    border-radius: 35px;
+  }
+  #profile-camera{
+    margin-top: 105px;
+      margin-right: 53px;
+      margin-bottom: 43px;
+      padding: 10px;
+      border-radius: 105px ;
+      background-color: #232323;
+        color:rgba(158, 158, 158, 0.786);
+  }
+  #profile-camera:hover{
+    border-radius: 105px ;
+    background-color: #4e4e4e;
+    color:rgba(255, 255, 255, 0.751);
+  }
+ 
+  .nav-tabs {
+    margin-bottom: 20px;
+  }
+  
+  .nav-tabs .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-tabs .nav-link {
+    color: #333;
+  }
+  
+  .nav-tabs .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .college-detail-card h1 {
+    color: #333;
+  }
+  
+  .college-detail-card h2 {
+    color: #333;
+  }
+  
+  .college-detail-card p {
+    color: #555;
+  }
+  
+  .college-detail-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .college-detail-card ul li {
+    margin-bottom: 10px;
+  }
+  .profile-avatar{
+      border: 3px #ffffff solid;
+      border-radius: 105px;
+      
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+  }
+  
+  .action-buttons button {
+    margin-right: 10px;
+  }
+  
+  .action-buttons button.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .action-buttons button.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+  }
+  .goldy-star{
+    color:rgb(237, 170, 0);
+  }
+  

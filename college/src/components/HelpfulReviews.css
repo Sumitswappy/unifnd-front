@@ -1,0 +1,13 @@
+.custom-carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custom-card-size {
+  background-color: rgba(240, 248, 255, 0.53);
+    width: 50%; /* Set your desired width */
+    height: 50%; /* Set your desired height */
+  }
+  .gold-star{
+    color:rgb(255, 197, 50);
+  }

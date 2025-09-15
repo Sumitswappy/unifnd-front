@@ -1,0 +1,97 @@
+
+
+.view-user {
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom, rgb(65, 65, 65),rgb(237, 237, 237),rgb(237, 237, 237),rgb(237, 237, 237),rgb(237, 237, 237),rgb(237, 237, 237));
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .view-heading {
+    font-size: 4vh;
+    color: #333; /* Set your desired text color */
+  }
+  
+  .view-breadcrumb {
+    background-color: #ffffff8d; /* Set your desired background color */
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  
+  .view-breadcrumb a {
+    text-decoration: none;
+  }
+  
+  .view-breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  .view-breadcrumb a:hover {
+    text-decoration: underline;
+  }
+  /* styles.css */
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table-header {
+  background: #515151;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #5a5a5a;
+}
+.heading{
+  display:flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d4d4d480;
+  border-radius: 8px;
+}
+
+.table-row {
+  border-bottom: 1px solid #ddd;
+}
+.table-row td{
+  text-align: center;
+  padding: 10px;
+}
+.admin-user {
+  background-image: linear-gradient(to right,  rgba(255, 1, 1, 0.385),rgb(255, 24, 24));
+  border-radius: 0px 35px 35px 0px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+.college-user {
+  background-image: linear-gradient(to right,  rgba(1, 141, 255, 0.385),rgb(24, 143, 255));
+  border-radius: 0px 35px 35px 0px;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+.admin-user-text {
+  font-weight: bolder;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+
+.addbutton{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 106, 255);
+  padding-left: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 15px;
+  border: 2px solid rgb(0, 106, 255);
+  border-radius: 5px;
+}
+.addbutton:hover{
+  background-color: rgb(2, 100, 236);
+    border: 2px solid rgb(2, 100, 236);
+    color:white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.43);
+}

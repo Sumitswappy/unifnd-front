@@ -1,0 +1,49 @@
+/* AdminSidenav.css */
+
+.sidebar {
+    position: relative;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0px 100vh ;
+    /* Height of navbar */
+    width: 240px;
+    background-color: #fff; 
+    color: #333; 
+    overflow: hidden; 
+  }
+  .sidebar.collapse {
+    /* Styles for the collapsed sidebar go here */
+    width: 50px; /* Adjust the width as needed */
+    overflow-x: hidden;
+    transition: width 0.3s ease;
+  }
+  .sidebar h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #709085; /* Set your desired heading color */
+  }
+  
+  .sidebar .position-sticky {
+    padding-top: 1rem;
+  }
+  
+   .sidebar a {
+    color: #333; 
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  /*
+  .sidebar a:hover {
+    background-color: #f8f9fa; /* Set your desired hover background color 
+    color: #333;  Set your desired hover text color 
+  } */
+  
+  .sidebar .active {
+    color: #007bff; /* Set your desired active background color */
+  }
+  

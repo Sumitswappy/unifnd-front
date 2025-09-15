@@ -1,0 +1,10 @@
+
+/* Mobile styles - adjust as needed */
+@media screen and (max-width: 768px) {
+    .carousel-item img {
+      max-height: 250px; /* Adjust the max-height for smaller screens */
+      width: 100px;
+      height: 250px;
+    }
+  }
+  
